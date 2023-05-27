@@ -9,7 +9,7 @@ const Home = () => {
     <>
       <div className="circulos">
         <svg
-          className="ciculo circulo1"
+          className="circulo circulo1"
           viewBox="0 0 200 200"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -20,34 +20,34 @@ const Home = () => {
           />
         </svg>
         <svg
-          className="ciculo circulo2"
+          className="circulo circulo2"
           viewBox="0 0 200 200"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-                className="path"
+            className="path"
             d="M43,-34.4C57.7,-15.9,72.9,2.1,72.7,21.9C72.4,41.7,56.7,63.4,38.1,68.1C19.5,72.9,-2,60.8,-19.6,49.1C-37.2,37.4,-50.8,26.1,-54,12.3C-57.2,-1.5,-50,-17.8,-39.2,-35.4C-28.5,-53,-14.2,-72,0,-71.9C14.2,-71.9,28.3,-52.9,43,-34.4Z"
             transform="translate(100 100)"
           />
         </svg>
         <svg
-          className="ciculo circulo3"
+          className="circulo circulo3"
           viewBox="0 0 200 200"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-                className="path"
+            className="path"
             d="M40.8,-45.7C56.7,-35.3,76,-26,79.2,-13.2C82.4,-0.3,69.5,16.2,55.7,24.9C42,33.6,27.4,34.5,12.9,43C-1.6,51.5,-16.1,67.7,-31.1,69.3C-46.2,70.8,-61.8,57.8,-63.1,42.7C-64.3,27.6,-51.2,10.4,-41.8,-1.2C-32.4,-12.9,-26.8,-19.1,-20.5,-31.2C-14.2,-43.3,-7.1,-61.2,2.7,-64.4C12.5,-67.6,24.9,-56.1,40.8,-45.7Z"
             transform="translate(100 100)"
           />
         </svg>
         <svg
-          className="ciculo circulo4"
+          className="circulo circulo4"
           viewBox="0 0 200 200"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-                className="path"
+            className="path"
             d="M39.4,-47.3C53.8,-34.9,70,-25,72.2,-12.7C74.4,-0.4,62.5,14.4,52.6,29.2C42.7,44,34.7,58.8,21.5,67.1C8.3,75.3,-10.1,76.9,-26.1,71.3C-42.1,65.7,-55.7,52.8,-57.6,38.6C-59.6,24.3,-49.9,8.6,-47.1,-8.5C-44.3,-25.5,-48.3,-44,-41.6,-57.7C-34.9,-71.4,-17.5,-80.4,-2.5,-77.5C12.5,-74.6,25,-59.6,39.4,-47.3Z"
             transform="translate(100 100)"
           />
@@ -85,6 +85,7 @@ const Home = () => {
           </ul>
         </nav>
       </header>
+
       <main className="main">
         <div className="seccion" id="inicio">
           <section className="section info">

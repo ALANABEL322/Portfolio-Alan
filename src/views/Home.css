@@ -69,6 +69,7 @@ h6 {
   font-size: inherit;
 }
 
+
 form,
 button,
 input,
@@ -99,7 +100,7 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: lightblue;
+  background-color: lightblue; 
   z-index: 1;
 
   filter: blur(70px);
@@ -128,7 +129,7 @@ body {
 }
 
 .circulos .circulo2 .path {
-  fill: rgb(76, 0, 148);
+  fill: rgb(111, 0, 155);
 }
 
 .circulos .circulo3 {
@@ -146,7 +147,7 @@ body {
 }
 
 .circulos .circulo4 .path {
-  fill: rgb(14, 1, 129);
+  fill: rgb(0, 99, 155);
 }
 
 .header {
@@ -191,15 +192,16 @@ body {
 /*seccion main*/
 
 .main {
-  background: lightgray;
-  margin: 1em 0;
+ 
+  margin: 0 0 1em;
   text-align: center;
+  position: relative;
+  z-index: 2;
 }
 
 .seccion {
   width: 100%;
   min-height: 80vh;
-  background: lightsalmon;
   /* margin: 1em 0; */
   padding: 2em;
 
