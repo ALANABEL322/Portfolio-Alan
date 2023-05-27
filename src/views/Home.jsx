@@ -89,7 +89,7 @@ const Home = () => {
       <main className="main">
         <div className="seccion" id="inicio">
           <section className="section info">
-            <h2 className="h2">Alan Pereyra</h2>
+            <h2 className="h2">Alan Abel Pereyra</h2>
             <h3 className="h3">FullStack Developer</h3>
 
             <ul className="ul">
