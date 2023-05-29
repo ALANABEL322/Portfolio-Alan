@@ -7,7 +7,7 @@ import worksWoman from "../assets/image-woman-works.jpg";
 const Home = () => {
   return (
     <>
-      <div className="circulos">
+      {/* <div className="circulos">
         <svg
           className="circulo circulo1"
           viewBox="0 0 200 200"
@@ -52,7 +52,7 @@ const Home = () => {
             transform="translate(100 100)"
           />
         </svg>
-      </div>
+      </div> */}
 
       <header className="header">
         <h1 className="h1">
