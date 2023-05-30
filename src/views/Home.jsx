@@ -10,6 +10,7 @@ import skillsreact from "../assets/react.png.png";
 import skillsredux from "../assets/redux.png.png";
 import skillssql from "../assets/sql.png.png";
 import skillsexpress from "../assets/express.png.png";
+import skillsnode from "../assets/node.png.png";
 // import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -157,7 +158,7 @@ const Home = () => {
 
         <div className="inner">
           <div className="header-skill">
-            <h1>My Skills</h1>
+            <h1 className="h2SK">My Skills</h1>
           </div>
         </div>
         <div className="container">
@@ -239,6 +240,14 @@ const Home = () => {
                 />
               </div>
               <h3>Express</h3>
+            </div>
+          </div>
+          <div className="skill-box">
+            <div className="skill-title">
+              <div className="img-skill">
+                <img src={skillsnode} alt="node.png" className="skills-icon" />
+              </div>
+              <h3>Node.js</h3>
             </div>
           </div>
         </div>
