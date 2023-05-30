@@ -22,13 +22,15 @@ const Home = () => {
           className="circulo circulo1"
           viewBox="0 0 200 200"
           xmlns="http://www.w3.org/2000/png"
-        >
+          >
           <path
             className="path"
             d="M46.3,25.3C37.6,41.8,-7.3,36,-21,16.5C-34.8,-2.9,-17.4,-35.8,5.1,-32.9C27.5,-30,55,8.8,46.3,25.3Z"
             transform="translate(100 100)"
           />
-        </png>
+          </png>
+        
+       
         <png
           className="circulo circulo2"
           viewBox="0 0 200 200"
@@ -65,7 +67,7 @@ const Home = () => {
             transform="translate(100 100)"
           />
         </png>
-      </div> */}
+       </div>*/}
 
       <header className="header">
         <h1 className="h1">
@@ -107,28 +109,48 @@ const Home = () => {
 
             <ul className="ul">
               <li className="li">
-                <a href="#" className="a" title="Github">
-                  Visitar mi Github
+                <a
+                  href="https://github.com/ALANABEL322"
+                  className="a"
+                  title="Github"
+                >
+                  Visit my Github
                 </a>
               </li>
               <li className="li">
-                <a href="#" className="a" title="LinkedIn">
-                  Visitar mi LinkedIn
+                <a
+                  href="https://www.linkedin.com/in/alan-abel-pereyra-0a8324257/"
+                  className="a"
+                  title="LinkedIn"
+                >
+                  Visit my LinkedIn
+                </a>
+              </li>
+              <li className="li">
+                <a
+                  href="https://drive.google.com/uc?export=download&id=1b0ihKinSn8ELeWkusdJ-WBT6OSVEIF_g"
+                  className="a"
+                  title="Curriculum"
+                >
+                  Descargar CV
                 </a>
               </li>
             </ul>
           </section>
         </div>
         <section className="seccion works" id="works">
-          <h2 className="h2">Trabajos</h2>
+          <h2 className="h2">Projects</h2>
           <p className="p">
-            Aquí te presento mis proyectos cuando fuí estudiante en el Bootcamp
-            Soy Henry
+            Aquí te presento mis proyectos usando mi stack de tecnologias
           </p>
 
           <div className="grid">
             <article className="article">
-              <a className="a" href="#" title="Trabajos1">
+              <a
+                className="a"
+                href="https://github.com/ALANABEL322/Medical-ConnectAr"
+                title="Trabajos1"
+              >
                 <figure className="figure">
                   <img
                     src={worksMen}
@@ -137,11 +159,15 @@ const Home = () => {
                     loading="lazy"
                   />
                 </figure>
-                <h4 className="h4">Nombre trabajo</h4>
+                <h4 className="h4">Medical Connect</h4>
               </a>
             </article>
             <article className="article">
-              <a className="a" href="#" title="Trabajos1">
+              <a
+                className="a"
+                href="https://github.com/ALANABEL322/PI-Countries"
+                title="Trabajos1"
+              >
                 <figure className="figure">
                   <img
                     src={worksWoman}
@@ -150,7 +176,7 @@ const Home = () => {
                     loading="lazy"
                   />
                 </figure>
-                <h4 className="h4">Nombre trabajo</h4>
+                <h4 className="h4">Countries</h4>
               </a>
             </article>
           </div>
@@ -253,24 +279,24 @@ const Home = () => {
         </div>
 
         <section className="seccion about" id="about">
-          <h2 className="h2">Sobre Mí</h2>
+          <h2 className="h2">About Me</h2>
           <p className="p">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, qui
-            quo perferendis aperiam laborum ratione numquam eos earum saepe
-            quasi explicabo aspernatur deserunt corrupti ipsum eaque repellendus
-            similique dolores enim.
+            !Hola a Todos/a¡ a fines de abril del 2023 me gradué del Bootcamp
+            "Soy Henry" y este fué un gran desafío desde que empecé, pero muy
+            emocionante. conocí a personas brillantes las cuales aprendí mucho y
+            me inspiraron a superarme y ahora sé que puedo dar más.
           </p>
           <p className="p">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, qui
-            quo perferendis aperiam laborum ratione numquam eos earum saepe
-            quasi explicabo aspernatur deserunt corrupti ipsum eaque repellendus
-            similique dolores enim.
+            mi sueño es trabajar en el desarrolo web, aprovechando al máximo mí
+            comunicación, trabajo en equipo, resolución de problemas,
+            responsabilidad y sobre todo mi perseverancia, para dar lo mejor de
+            mí al equipo y empresa.
           </p>
           <p className="p">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, qui
-            quo perferendis aperiam laborum ratione numquam eos earum saepe
-            quasi explicabo aspernatur deserunt corrupti ipsum eaque repellendus
-            similique dolores enim.
+            Estoy entusiasmado por seguir creciendo como profesional en el
+            sector IT y estoy abierto a nuevas oportunidades. ¡No dudes en
+            contactarme si crees que puedo ser una buena adición a tu equipo! Sé
+            que me espera algo brillate y me voy a esforzar por alcanzarlo.
           </p>
 
           <ul className="rrss">
@@ -318,7 +344,7 @@ const Home = () => {
         </section>
       </main>
       <footer className="footer">
-        <span className="span"> Hecho con mucho 💕 Alan Pereyra</span>
+        <span className="span"> Hecho con mucho 💕 Alan Abel Pereyra</span>
       </footer>
     </>
   );
