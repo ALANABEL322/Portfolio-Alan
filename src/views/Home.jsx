@@ -288,11 +288,11 @@ const Home = () => {
           <p className="p">
             !Hola a Todos/a¡ a fines de abril del 2023 me gradué del Bootcamp
             "Soy Henry" y este fué un gran desafío desde que empecé, pero muy
-            emocionante. conocí a personas brillantes las cuales aprendí mucho y
-            me inspiraron a superarme y ahora sé que puedo dar más.
+            emocionante. conocí a personas brillantes de las cuales aprendí
+            mucho y me inspiraron a superarme y ahora sé que puedo dar más.
           </p>
           <p className="p">
-            mi sueño es trabajar en el desarrolo web, aprovechando al máximo mí
+            mi sueño es trabajar en desarrolo web, aprovechando al máximo mí
             comunicación, trabajo en equipo, resolución de problemas,
             responsabilidad y sobre todo mi perseverancia, para dar lo mejor de
             mí al equipo y empresa.
