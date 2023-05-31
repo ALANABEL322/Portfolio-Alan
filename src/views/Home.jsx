@@ -135,7 +135,7 @@ const Home = () => {
                   title="Curriculum"
                   target="_blank"
                 >
-                  Descargar CV
+                  Download CV
                 </Link>
               </li>
             </ul>
