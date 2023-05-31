@@ -11,7 +11,7 @@ import skillsredux from "../assets/redux.png.png";
 import skillssql from "../assets/sql.png.png";
 import skillsexpress from "../assets/express.png.png";
 import skillsnode from "../assets/node.png.png";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -109,31 +109,34 @@ const Home = () => {
 
             <ul className="ul">
               <li className="li">
-                <a
-                  href="https://github.com/ALANABEL322"
+                <Link
+                  to="https://github.com/ALANABEL322"
                   className="a"
                   title="Github"
+                  target="_blank"
                 >
                   Visit my Github
-                </a>
+                </Link>
               </li>
               <li className="li">
-                <a
-                  href="https://www.linkedin.com/in/alan-abel-pereyra-0a8324257/"
+                <Link
+                  to="https://www.linkedin.com/in/alan-abel-pereyra-0a8324257/"
                   className="a"
                   title="LinkedIn"
+                  target="_blank"
                 >
                   Visit my LinkedIn
-                </a>
+                </Link>
               </li>
               <li className="li">
-                <a
-                  href="https://drive.google.com/uc?export=download&id=1b0ihKinSn8ELeWkusdJ-WBT6OSVEIF_g"
+                <Link
+                  to="https://drive.google.com/uc?export=download&id=1b0ihKinSn8ELeWkusdJ-WBT6OSVEIF_g"
                   className="a"
                   title="Curriculum"
+                  target="_blank"
                 >
                   Descargar CV
-                </a>
+                </Link>
               </li>
             </ul>
           </section>
@@ -146,10 +149,11 @@ const Home = () => {
 
           <div className="grid">
             <article className="article">
-              <a
+              <Link
                 className="a"
-                href="https://github.com/ALANABEL322/Medical-ConnectAr"
+                to="https://github.com/ALANABEL322/Medical-ConnectAr"
                 title="Trabajos1"
+                target="_blank"
               >
                 <figure className="figure">
                   <img
@@ -160,13 +164,14 @@ const Home = () => {
                   />
                 </figure>
                 <h4 className="h4">Medical Connect</h4>
-              </a>
+              </Link>
             </article>
             <article className="article">
-              <a
+              <Link
                 className="a"
-                href="https://github.com/ALANABEL322/PI-Countries"
+                to="https://github.com/ALANABEL322/PI-Countries"
                 title="Trabajos1"
+                target="_blank"
               >
                 <figure className="figure">
                   <img
@@ -177,7 +182,7 @@ const Home = () => {
                   />
                 </figure>
                 <h4 className="h4">Countries</h4>
-              </a>
+              </Link>
             </article>
           </div>
         </section>
