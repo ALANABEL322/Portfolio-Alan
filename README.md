@@ -14,7 +14,7 @@ Este es un Portfolio creado con HTML, CSS Y JavaScript usando metologia BEM y un
  ## Ver ejemplo en vivo 
   - https://portfolioalanpereyra.vercel.app/
 
-![]()
+![](https://github.com/ALANABEL322/Portfolio-Alan/blob/main/captura-porfolio.png)
 
 ## Instalación 
 Este proyecto no necesita de instalación solo. simplemente abre la carpeta o haz click en el enlace directo
