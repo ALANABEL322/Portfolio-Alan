@@ -7,12 +7,12 @@ Este es un Portfolio creado con HTML, CSS Y JavaScript usando metologia BEM y un
 ## Autor 🪄
 ## **Alan Pereyra**
 
-* [LinkedIn]()
+* [LinkedIn](https://www.linkedin.com/in/alan-abel-pereyra-0a8324257/)
 
-* [Portfolio Web]()
+* [Portfolio Web](https://portfolioalanpereyra.vercel.app/)
 
  ## Ver ejemplo en vivo 
-  -
+  - (https://portfolioalanpereyra.vercel.app/)
 
 ## Instalación 
 Este proyecto no necesita de instalación solo. simplemente abre la carpeta o haz click en el enlace directo
