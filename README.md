@@ -1,13 +1,14 @@
 ## Portfolio-Alan Pereyra 💼
 perfil profesional hecho con Vite.js
 
-## Descripción 🌼´
+## Descripción 🌼
 Este es un Portfolio creado con HTML, CSS Y JavaScript usando metologia BEM y una arquitectura ITCSS. 
 
-## Autor - 
+## Autor 
 **Alan Pereyra**
 
 *[LinkedIn]()
+
 *[Portfolio Web]()
 
 ## Ver ejemplo en vivo 
